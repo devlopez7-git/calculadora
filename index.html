@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Uma calculadora simples e funcional">
+    <meta name="keywords" content="calculadora, matemática, soma, números">
+    <meta name="author" content="devlopez7">
+    <title>Calculadora</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <section class="container flex">
+        <h1>Calculadora</h1>
+        <p>Insira dois números para realizar uma operação matemática.</p>
+
+        <div class="campos flex">
+            <label for="num1">Número 1:</label>
+            <input type="number" id="num1" placeholder="Digite o primeiro número">
+
+            <label for="operacao">Operação:</label>
+            <select id="operacao">
+                <option value="+">+</option>
+                <option value="-">-</option>
+                <option value="*">×</option>
+                <option value="/">÷</option>
+            </select>
+
+            <label for="num2">Número 2:</label>
+            <input type="number" id="num2" placeholder="Digite o segundo número">
+        </div>
+
+        <h2>Resultado: <span id="resultado">0</span></h2>
+        <button id="calcular">Calcular</button>
+
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

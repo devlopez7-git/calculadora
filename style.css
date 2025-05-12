@@ -1,0 +1,132 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* Body com fundo gradiente */
+body {
+    background: linear-gradient(135deg, #1E3A8A, #5B21B6);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Container principal com flex */
+.container {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    max-width: 500px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 0.2s ease;
+}
+
+/* Títulos */
+h1 {
+    font-size: 42px;
+    font-weight: 600;
+    color: #F8FAFC;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 22px;
+    color: #E2E8F0;
+    margin-top: 20px;
+}
+
+/* Parágrafo */
+p {
+    font-size: 16px;
+    color: #CBD5E1;
+    margin-bottom: 20px;
+}
+
+/* Campos de entrada com flex */
+.campos {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+}
+
+/* Cada campo individual como flex */
+.campo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+label {
+    font-size: 14px;
+    color: #F8FAFC;
+    margin-bottom: 5px;
+}
+
+input,
+select {
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    color: #1E293B;
+    background: rgba(255, 255, 255, 0.9);
+    width: 100%;
+    transition: box-shadow 0.2s ease;
+}
+
+input:focus,
+select:focus {
+    box-shadow: 0 0 0 3px rgba(236, 72, 153, 0.4);
+    outline: none;
+}
+
+/* Botão */
+button {
+    margin-top: 20px;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #FFFFFF;
+    background: linear-gradient(90deg, #5B21B6, #EC4899);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 100%;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+    background: linear-gradient(90deg, #6D28D9, #F472B6);
+    transform: translateY(-2px);
+}
+
+/* Resultado */
+#resultado {
+    font-size: 24px;
+    font-weight: 600;
+    color: #F9A8D4;
+    margin-top: 20px;
+}
+
+/* Responsividade */
+@media (max-width: 480px) {
+    .container {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 38px;
+
+    }
+}
