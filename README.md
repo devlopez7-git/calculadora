@@ -1,111 +1,73 @@
-Calculadora Simples
+# 📱 Calculadora
 
-Descrição
+## 🧾 Descrição
 
-Este projeto é uma calculadora web simples e funcional, desenvolvida com HTML, CSS e JavaScript. A calculadora permite realizar operações matemáticas básicas (soma, subtração, multiplicação e divisão) entre dois números inseridos pelo usuário. A interface é intuitiva e responsiva, garantindo uma boa experiência em diferentes dispositivos.
+Projeto de uma calculadora web funcional, desenvolvida com **HTML5**, **CSS3** e **JavaScript**. Permite realizar as quatro operações matemáticas básicas entre dois números fornecidos pelo usuário. A interface é limpa, responsiva e fácil de usar em diferentes dispositivos.
 
-Funcionalidades
+---
 
+## ⚙️ Funcionalidades
 
+- Entrada de dois números.
+- Seleção da operação desejada: **adição**, **subtração**, **multiplicação** ou **divisão**.
+- Validação de entradas e tratamento de erros (ex: divisão por zero).
+- Exibição clara do resultado ou de mensagens de erro.
+- Interface amigável com design minimalista.
 
+---
 
+## 🛠️ Tecnologias Utilizadas
 
-Entrada de dois números pelo usuário.
+- **HTML5** – Estrutura da página.
+- **CSS3** – Estilização da interface (arquivo `style.css`).
+- **JavaScript** – Lógica dos cálculos e manipulação de eventos (arquivo `script.js`).
 
+---
 
+## 🚀 Como Usar
 
-Seleção de uma operação matemática (+, -, ×, ÷).
+1. Clone ou baixe o repositório para sua máquina:
+    
+    ```bash
+    git clone https://github.com/devlopez7-git/calculadora.git
+    
+    ```
+    
 
+Abra o arquivo index.html em qualquer navegador moderno.
 
+Insira dois números nos campos indicados.
 
-Cálculo do resultado com validação de entradas.
+Selecione a operação matemática desejada.
 
+Clique no botão Calcular para exibir o resultado.
 
-
-Exibição de mensagens de erro para entradas inválidas ou divisão por zero.
-
-
-
-Interface amigável com design limpo.
-
-Tecnologias Utilizadas
-
-
-
-
-
-HTML5: Estrutura da página.
-
-
-
-CSS3: Estilização da interface (arquivo style.css).
-
-
-
-JavaScript: Lógica para cálculos e interação com o usuário (arquivo script.js).
-
-Como Usar
-
-
-
-
-
-Clone ou baixe o repositório para sua máquina.
-
-
-
-Abra o arquivo index.html em um navegador web.
-
-
-
-Insira dois números nos campos fornecidos.
-
-
-
-Escolha uma operação no menu suspenso.
-
-
-
-Clique no botão Calcular para ver o resultado.
-
-Estrutura do Projeto
-
+📁 Estrutura do Projeto
 calculadora/
-├── index.html      # Página principal da calculadora
+├── index.html      # Página principal
 ├── style.css       # Estilos da interface
-├── script.js       # Lógica da calculadora
-└── README.md       # Documentação do projeto
+├── script.js       # Lógica de cálculo
+└── [README.md](http://readme.md/)       # Documentação
 
-Exemplos de Uso
+🧪 Exemplos de Uso
+Soma:
 
+Entrada: 5 e 3 → Operação: + → Resultado: 8
 
+Divisão por zero:
 
+Entrada: 10 e 0 → Operação: ÷ → Resultado: Erro: divisão por zero
 
+🤝 Contribuição
+Contribuições são bem-vindas! Sugestões de melhoria incluem:
 
-Soma: Insira 5 e 3, selecione +, clique em Calcular. Resultado: 8.
+Novas operações (ex: potência, raiz quadrada).
 
+Interface aprimorada ou novos estilos.
 
+Validações adicionais e suporte a mais formatos numéricos.
 
-Divisão por zero: Insira 10 e 0, selecione ÷, clique em Calcular. Resultado: Erro (divisão por zero).
+Para contribuir, abra uma issue ou envie um pull request com sua proposta.
 
-Contribuição
-
-Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou pull requests com melhorias, como:
-
-
-
-
-
-Adição de novas operações (ex.: potência, raiz quadrada).
-
-
-
-Melhorias na interface ou responsividade.
-
-
-
-Validações adicionais para entradas.
-
-Autor
-
-Desenvolvido por devlopez7.
+👤 Autor
+Desenvolvido por [devlopez7-git](https://github.com/devlopez7-git)
