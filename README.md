@@ -58,8 +58,7 @@ Divisão por zero:
 
 Entrada: 10 e 0 → Operação: ÷ → Resultado: Erro: divisão por zero
 
-🤝 Contribuição
-Contribuições são bem-vindas! Sugestões de melhoria incluem:
+🤝 Contribuições são bem-vindas! Sugestões de melhoria incluem:
 
 Novas operações (ex: potência, raiz quadrada).
 
